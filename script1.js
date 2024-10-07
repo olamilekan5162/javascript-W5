@@ -31,9 +31,16 @@ function calculations(num1, num2, ops){
   }
   return result;
 }
+
+
 console.log("WELCOME TO MY CALCULATOR APP");
 //parseInt is the same as Integer.parseInt() in JAVA so i use opolo😂 i did not tunmise o;😂
-let num1 = parseInt(prompt("enter the first Number"));
-let num2 = parseInt(prompt("Enter the second Number"));
-let ops = prompt("Enter the symbol for the operation you want to perfrom; e.g +, -, *, /, %");
-console.log(calculations(num1, num2, ops));
+
+// let num1 = parseInt(prompt("enter the first Number"));
+// let num2 = parseInt(prompt("Enter the second Number"));
+// let ops = prompt("Enter the symbol for the operation you want to perfrom; e.g +, -, *, /, %");
+// console.log(calculations(num1, num2, ops));
+
+// wrote the code with my phone and i just found out now that vscode does not know what prompt is
+
+console.log(calculations(15, 0, "/"));
